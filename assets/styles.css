@@ -1,8 +1,6 @@
 /* Global styles come from external css https://codepen.io/GreenSock/pen/gOWxmWG */
 
-@import url('https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tac+One&family=Workbench&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Tac+One&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
 
 * {
   margin: 0;
@@ -63,11 +61,11 @@ html, body {
 
 .marquee-container {
   width: 100%;
-  padding-top: 0.2em;
+  padding-top: 0.1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family:  "Rubik Scribble", system-ui;
+  font-family: "Edu NSW ACT Foundation";
 }
 
 .container {
@@ -77,7 +75,7 @@ html, body {
   height: 100vh;
   overflow: hidden;
   z-index: 1;
-  font-family: "Signika Negative";
+  font-family: "Edu NSW ACT Foundation";
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
