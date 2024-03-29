@@ -4,8 +4,15 @@ export default defineNuxtConfig({
   css: [
 		// '@/assets/scss/default.scss',
     '@/assets/styles.css',
+    '~/assets/css/main.css',
 	],
   build: {
     transpile: ['gsap'],
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
 })
