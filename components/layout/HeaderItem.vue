@@ -2,13 +2,27 @@
 
 <template>
   <div>
-    <nav style="background-color: gainsboro">
-      <nuxt-link to="" style="margin-right: 8px">回到首頁</nuxt-link>
-      <nuxt-link to="" style="margin-right: 8px">關於</nuxt-link>
-      <nuxt-link to="" style="margin-right: 8px">產品介紹</nuxt-link>
-      <nuxt-link to="" style="margin-right: 8px">購買商品</nuxt-link>
-      <nuxt-link to="" style="margin-right: 8px">客服中心</nuxt-link>
-    </nav>
+    <div class="navbar bg-base-100">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Link</a></li>
+      <li>
+        <details>
+          <summary>
+            Parent
+          </summary>
+          <ul class="p-2 bg-base-100 rounded-t-none">
+            <li><a>Link 1</a></li>
+            <li><a>Link 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
   </div>
 </template>
 
