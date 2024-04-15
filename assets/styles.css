@@ -9,8 +9,17 @@
 }
 
 html, body {
+  width: 100vw;
+  height: 100vh;
+  /* background: #fff; */
+  font-family: "Edu NSW ACT Foundation";
+}
+
+
+/* html, body {
   margin: 0;
   padding: 0;
-  background: #fff;
-  overflow-x: hidden; /* 隱藏 卷軸*/
+  background: #080505;
+  overflow-x: hidden;  
 }
+ */

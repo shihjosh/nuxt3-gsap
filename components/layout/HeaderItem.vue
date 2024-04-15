@@ -8,7 +8,7 @@
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
-      <li><a>Link</a></li>
+      <li><nuxt-link to="/project">project</nuxt-link></li>
       <li>
         <details>
           <summary>
